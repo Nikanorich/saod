@@ -36,7 +36,7 @@ int RunNumber(int n, int *a)
 }
 int CheckSum(int n, int *a)
 {
-	int sum;
+	int sum = 0;
 	for(int i = 0; i < n; i++)
 	{
 		sum+=a[i];
